@@ -222,6 +222,19 @@ function buyIngredientsModule:SetupAutobuyIngredients()
   self:ClassicRecipe(wound2, { item = essOfPain, count = 1 }, { item = deathweed, count = 2 }, leadedVial)
   self:ClassicRecipe(wound1, { item = essOfPain, count = 1 }, { item = deathweed, count = 1 }, leadedVial)
 
+    -- SOD POISONS
+  local sebacious = itemModule:Create(217345, "Sebacious Poison")
+  local occult2 = itemModule:Create(234444, "Occult Poison II")
+  local occult1 = itemModule:Create(226374, "Occult Poison II")
+  local atrophic = itemModule:Create(217347, "Atrophic Poison")
+  local numbing = itemModule:Create(217346, "Numbing Poison")
+
+  self:ClassicRecipe(sebacious, { item = essOfAgony, count = 4 }, crystalVial, nil)
+  self:ClassicRecipe(occult2, { item = deathweed, count = 7 }, crystalVial, nil)
+  self:ClassicRecipe(occult1, { item = essOfAgony, count = 5 }, { item = deathweed, count = 5 }, crystalVial)
+  self:ClassicRecipe(atrophic, { item = dustOfDeter, count = 7 }, crystalVial, nil)
+  self:ClassicRecipe(numbing, { item = dustOfDeter, count = 3 }, { item = essOfAgony, count = 1 }, crystalVial)
+
   -- ANESTHETIC POISON
   local anesth1 = itemModule:Create(21835, "Anesthetic Poison")
   self:TbcRecipe(anesth1, maidensAnguish, { item = deathweed, count = 1 }, crystalVial)
