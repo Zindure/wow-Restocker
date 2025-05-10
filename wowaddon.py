@@ -12,7 +12,7 @@ import zipfile
 
 VERSION = '2024.5.0'  # year.month.build_num
 
-ADDON_NAME = 'Restocker'  # Directory and zip name
+ADDON_NAME = 'Restocker-SOD'  # Directory and zip name
 ADDON_NAME_CLASSIC = ADDON_NAME  # Directory and zip name
 ADDON_TITLE_CLASSIC = ADDON_NAME  # Title field in TOC
 ADDON_TITLE_MAINLINE = ADDON_NAME  # Title field in Retail mainline
