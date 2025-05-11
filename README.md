@@ -21,8 +21,6 @@ Will restock poison reagents if you have no poisons in the bank and below the se
 Disabled in WotLK, Cataclysm etc, as poisons are now vendor-supplied items. Set up your restocking as you would do anything else.
 /rs or /restocker to toggle window.
 
-Source https://github.com/Zindure/wow-Restocker
-
 
 
 ![Restocker main frame](https://raw.githubusercontent.com/Zindure/wow-Restocker/refs/heads/master/Restocker-SOD.png)
