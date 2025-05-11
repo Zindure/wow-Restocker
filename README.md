@@ -2,19 +2,23 @@ Forked from kvakvs' Restocker Classic, this version of Restocker aims to support
 Added support for SOD poisons, may add more based on feedback.
 
 
-Restocker
+# Restocker
+
 Restocks items on the list automatically (if checked) Will only add items by name that are cached by the client (you must have seen the item during your play session). Only true for adding items, not for items already added. Supports adding ANY item by itemID
 
-Profiles
+### Profiles
+
 Full support for profiles. Useful for pve/pvp differences where items you wish to put into bank will need to be set to 0.
 
 Example: PVE profile has all potions/elixirs and their respective number to restock. PVP profile still need to have the potions but with the amount set to 0. When you visit the bank with the PVP profile the addon will put all potions/elixirs into bank and restock on your PVP profile items.
 
-Restocks from
+Restocks from :
 
-Vendor
-Bank (Hold shift when opening bank to temp disable restocking)
-Full poisons support (Classic, SOD and TBC)!
+- Vendor
+
+- Bank (Hold shift when opening bank to temp disable restocking)
+
+- Full poisons support (Classic, SOD and TBC)!
 
 Will restock poisons from bank.
 Will restock poison reagents if you have no poisons in the bank and below the set number.
